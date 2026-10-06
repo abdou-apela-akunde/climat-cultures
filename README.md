@@ -10,7 +10,8 @@ Projet réalisé dans le cadre de la SAÉ 3.01 -BUT Informatique, IUT Créteil-V
 | AbdelWadoud ALLOUNE       | Dev        |
 | Amina DJAYJI              | Data       |
 | Marie-Chrislaine ETAMANDO | Data       |
-| Abdou APELA AKUNDE        | Data       |
+| Abdou APELA AKUNDE        | Dev (Data) |
+| Aïcha DABO                | Data       |
 
 ## Organisation
 
@@ -20,7 +21,7 @@ Projet réalisé dans le cadre de la SAÉ 3.01 -BUT Informatique, IUT Créteil-V
 ## Structure du dépot
 
 ```
-DEV/ code l'application (front/back)
+App/ code l'application (front/back)
 DATA/ référentiel de seuils, scripts, requêtes SQL
 Docs/ document d'analyse, cahier de réponses, journal IA
 ```
