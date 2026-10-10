@@ -10,7 +10,7 @@ with open("reponse.json", encoding="utf-8") as f:
 
 with open("series_exemple.csv", "w", newline="", encoding="utf-8") as out:
     w = csv.writer(out)
-    w.writerow(["id_commune", "date", "t_min", "t_max", "t_moy", "precip", "modele"])
+    w.writerow(["code_insee", "date", "t_min", "t_max", "t_moy", "precip", "modele"])
     for i, jour in enumerate(d["time"]):
         w.writerow([
             ID_COMMUNE,
