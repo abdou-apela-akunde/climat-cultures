@@ -1,0 +1,1 @@
+curl.exe -G "https://customer-climate-api.open-meteo.com/v1/climate" -d "latitude=48.8145" -d "longitude=2.5735" -d "start_date=2049-01-01" -d "end_date=2049-12-31" -d "models=MRI_AGCM3_2_S" -d "daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean,precipitation_sum" -d "timezone=Europe/Paris" -d "apikey=VOTRE_CLE" -o reponse.json
