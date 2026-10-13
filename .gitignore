@@ -1,1 +1,23 @@
+# Secrets
+.env
+
+# Base SQLite locale
+*.sqlite
+*.sqlite3
+*.db
+
+# Dépendances et fichiers générés
+vendor/
+node_modules/
+__pycache__/
+*.pyc
+
+# Éditeur et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Cache de l'application
+cache/
 
