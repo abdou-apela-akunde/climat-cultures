@@ -53,12 +53,12 @@ En signant, chaque membre de l'équipe s'engage à :
 
 ---
 
-## Signatures *(J0 — date : 21/09/2026)*
+## Signatures *(date : 13/10/2026)*
 
 | Membre (Prénom NOM) | Parcours (DEV/DATA) | Signature |
-| Abdou APELA AKUNDE | DEV |  |
-|  |  |  |
-| `[…]` |  |  |
-| `[…]` |  |  |
-| `[…]` |  |  |
-| `[…]` |  |  |
+|---|---|---|
+| Abdelwadoud ALLOUNE | DEV                 |  |
+| Abdou APELA AKUNDE  | DEV (DATA)          | Signé le 21/09/2026 |
+| Aicha DABO          | DATA                | `[à signer par la personne]` |
+| Amina DJAYJI        | DATA                | `[à signer par la personne]` |
+| Marie-Chrislaine ETAMANDO | DATA          | `[à signer par la personne]` |
