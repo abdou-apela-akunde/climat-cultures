@@ -1,0 +1,6 @@
+cas,gdd,jours_gel,jours_stress,bilan_hydrique,nb_jours_manquants,commentaire
+TEST_A_SANS_GEL,84,0,0,,0,Année sans gel : 0 jour de gel. GDD = somme des Tmoy (7+8+9+8+7+10+11+9+8+7).
+TEST_B_CANICULE,255.5,0,7,,0,Canicule : 7 jours avec Tmax > 30 (31 33 36 38 37 35 32).
+TEST_C_MANQUANTES,40,1,0,,3,Valeurs manquantes ignorées (jours 2 7 9). Jour 9 sans t_min : ni gel ni GDD. Jour 7 sans t_max : pas de GDD.
+TEST_D_SEUIL_EXACT,109.5,2,1,,0,Seuil exact : -4.0 et 30.0 ne comptent pas (strict) ; -4.1 -10 comptent pour le gel ; 30.1 compte pour le stress.
+TEST_E_ET0,,0,0,-53.16,0,Bilan hydrique : 10 jours Paris juillet sans pluie ; ET0 ≈ 5.3 mm/jour (ordre de grandeur vérifié à la main : Ra ≈ 41 MJ/m²/j). Valeur issue de l'implémentation de référence (tolérance 0.5) : à recalculer par DATA 2.
