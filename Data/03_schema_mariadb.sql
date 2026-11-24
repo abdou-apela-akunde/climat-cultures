@@ -190,7 +190,7 @@ INSERT INTO Dim_Temps (horizon, libelle, annee_debut, annee_fin, nb_annees) VALU
 -- EC_Earth3P_HR a repondu sur 1 commune / 1 annee seulement (a retester sur les 16 communes).
 INSERT INTO Dim_Modele (nom_modele, organisme, statut_test, note_test) VALUES
   ('MRI_AGCM3_2_S', 'MRI (Japon)', 'valide', 'Test 10/10/2026 : Le Plessis-Trévise, 2049, données présentes'),
-  ('EC_Earth3P_HR', 'Consortium EC-Earth', 'a_tester', 'Test 10/10/2026 OK sur 1 commune et 1 année ; réponses vides déjà observées : à retester sur les 16 communes'),
+  ('EC_Earth3P_HR', 'Consortium EC-Earth', 'a_tester', 'Test 10/10/2026 OK sur 1 commune et 1 année ; réponses vides signalées par le contrat v1.0.0 de l'équipe : à retester sur les 16 communes'),
   ('CMCC_CM2_VHR4', 'CMCC (Italie)', 'a_tester', 'Non testé');
 
 -- ------------------------------------------------------------
